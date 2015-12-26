@@ -8,13 +8,13 @@ There are plenty of packages that do it, but this one is mine. :)
 
 Usage: tog [OPTIONS]
 
-Options:
-  --us    Show time with microsecond precision.
-  --help  Show this message and exit.
+Options:  
+  --us    Show time with microsecond precision.  
+  --help  Show this message and exit.  
 
 ## Example
 
-    $ curl -v http://yahoo.com 2>&1 | tog --ms
+    $ curl -v http://yahoo.com 2>&1 | tog --us
 
     [2015-12-26 16:07:39.616428] * Rebuilt URL to: http://yahoo.com/
     [2015-12-26 16:07:39.616428] * timeout on name lookup is not supported
